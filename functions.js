@@ -16,7 +16,8 @@ end()
 
 ////////////////////////////////////
 function greet(who, age){
-    console.log('Howdy ${who} !!!');
+    console.log('Howdy ${who} !!!'); // MODERN
+    //  console.log("Howdy" + who +"!!!"); // CLASSIC CONCATENATION
     if(age >= 40){
         console.log("Gosh you are old!!!");
     }else{
