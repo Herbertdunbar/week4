@@ -11,7 +11,6 @@ function classRoom(){//start block
 }//end block
 
 console.log(eilish + " has infectious beats.")
-
 classRoom();
 
 //firstName does not exist in the global scopy
