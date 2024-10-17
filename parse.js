@@ -7,17 +7,18 @@
 //ORPORTLAND - slice me as I have no delimiter e.g " " or "."
 
 //body of text is a corpus
-corpus = "Now is the time..." //array/list of characters
+let corpus = "Now is the time..." //array/list of characters
+console.log("LENGTH", corpus.length)
+
 // i=0
 // console.log(corpus[i++])
 //i is for index
 //i++ is shorthand for i = i + 1
 //for(intitalize/start;boolean expression when to stop; change/increment){ code to repeat }
 
-for(i=0; i < corpus.length; i++){
+for(let i=0; i < corpus.length; i++){
     console.log(i, corpus[1], corpus[i].charCodeAt(0)) //REPEAT
 }
-
 console.log("DONE")
 
 //for(i=0; i < corpus.length; i++){
@@ -25,8 +26,13 @@ console.log("DONE")
 //}
 words = corpus.split("")
 console.log(words)
+console.log("LENGTH (word count):", words.length)
 console.log("FIRST WORD" , words[0])//first word
 console.log("LAST WORD" , words[words.length - 1])//last word
+
+for(let i=0; i < corpus.length; i++){
+    console.log(i, corpus[1], corpus[i].charCodeAt(0)) //REPEAT
+}
 
 ip = "127.128.128.255"
 parts = ip.split(".")
